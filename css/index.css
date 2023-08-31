@@ -1,0 +1,83 @@
+/*-----===BACKGROUND===-----*/
+body{
+    background-color: var(--amarelo-pastel);
+}
+
+/*---=HEADER=---*/
+header{
+    min-height: 100px;
+    height: 15%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header h1{
+    font-size: 72px;
+}
+
+
+/*-----===MAIN===-----*/
+main{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+article{
+    height: 80%;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+section{
+    height: 100%;
+    width: 30%;
+    border-radius: 1em;
+    overflow: hidden;
+    cursor: pointer;
+    border: solid 5px black;
+    transition: all .25s cubic-bezier(1, -1, 1, 1);
+}
+
+.jogo-img{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.lampada .jogo-img{background-color: var(--preto);}
+.cronometro .jogo-img{background-color: var(--vermelho-pastel);}
+.jogo-da-velha .jogo-img{background-color: var(--verde-pastel);}
+.jogo-img img{
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+.jogo-nome{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: solid 5px black;
+}
+.jogo-nome h2{
+    font-size: 42px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+}
+.lampada h2{color: var(--preto);}
+.cronometro h2{color: var(--vermelho-pastel);}
+.jogo-da-velha h2{color: var(--verde-pastel);}
+
+
+/*-----===EFEITOS===-----*/
+section:hover{transform: rotate(1deg);}
