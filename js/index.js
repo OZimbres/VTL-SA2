@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () =>{
                 window.location.reload();
             }
             else{
-                window.location.href = "/html/jogoDaVelha.html";
+                window.location.href = "./html/jogoDaVelha.html";
             }
         });
     });
