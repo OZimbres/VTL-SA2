@@ -11,10 +11,10 @@ document.addEventListener("DOMContentLoaded", () =>{
                 window.location.reload();
             }
             else if(pagina == "cronometro"){ 
-                window.location.reload();
+                window.location.href = "./html/cronometro.html";
             }
             else{
-                window.location.href = "html/jogoDaVelha.html";
+                window.location.href = "./html/jogoDaVelha.html";
             }
         });
     });

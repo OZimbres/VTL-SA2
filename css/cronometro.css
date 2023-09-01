@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    background-color: #F39696;
+}
+
+.tituloCima{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    font-family: 'Londrina Solid', cursive;
+    letter-spacing: 1px;
+    font-size: 1.2vw;
+}
+
+.containerCronometro{
+    margin-top: 3%;
+    background: #5F6494;
+    height: 50vh;
+    width:50%;
+    
+}
+.cronometro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tempoCronometro{
+    margin-top: 17%;
+    text-align: center;
+    font-size: 1.9vw;
+    color: white;
+}
+
+/* Estilo para os botões */
+.botoesCronometro{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    align-items: center;
+}
+.botaoVerde {
+    background-color: #8FF299;
+    color: black;
+    border: none;
+    padding: 16px 28px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 1.2vw;
+    text-align: center;
+    font-family: 'Londrina Solid', cursive;
+}
+
+/* Estilize o hover (quando o mouse está sobre o botão) */
+.botaoVerde:hover {
+    background-color: #6bb373;
+    color: white;
+}
