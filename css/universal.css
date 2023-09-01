@@ -5,8 +5,10 @@
     --branco: #EDEDED;
     --preto: #303030;
     --amarelo-pastel: #FBFCC6;
-    --vermelho-pastel: #F39696;
+    --azul-pastel: #2d76ca;
     --verde-pastel: #8FF299;
+    --vermelho-pastel: #F39696;
+    --vermelho-pastel-escuro: #d26666;
 
     font-family: 'Londrina Solid', cursive;
 }
@@ -15,6 +17,7 @@
 body{
     height: 100vh;
     width: 100%;
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;

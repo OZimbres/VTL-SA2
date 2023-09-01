@@ -1,25 +1,93 @@
 /*-----===BACKGROUND===-----*/
-body{
+body {
     background-color: var(--verde-pastel);
+    transition: all .25s ease-in-out;
+}
+
+body.vez-x {
+    background-color: var(--azul-pastel);
+    transition: all .25s ease-in-out;
+}
+
+body.vez-circulo {
+    background-color: var(--vermelho-pastel-escuro);
+    transition: all .25s ease-in-out;
+}
+
+/*-----===MENSAGENS===-----*/
+.mensagens {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.msg-vitoria,
+.msg-empate {
+    transition: all .15s ease-in-out;
+}
+
+.msg-vitoria.active,
+.msg-empate.active {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(1);
+    z-index: 999;
+}
+
+.msg-vitoria.hidden,
+.msg-empate.hidden {
+    transform: scale(0);
+    z-index: 100;
+}
+
+.msg-vitoria h1,
+.msg-empate h1 {
+    font-size: 172px;
+    color: white;
+    -webkit-text-stroke-width: 8px;
+    -webkit-text-stroke-color: #000;
+}
+
+/*---=DARK=---*/
+.dark {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 998;
+    display: block;
+    transform: translateX(-100%);
 }
 
 /*---=HEADER=---*/
-header{
+header {
     min-height: 50px;
     height: 5%;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: end;
+    z-index: 200;
 }
-nav{
+
+nav {
     height: 100%;
     width: 97.5%;
     display: flex;
     align-items: center;
     justify-content: start;
 }
-header a{
+
+header a {
     font-size: 32px;
     color: black;
     text-decoration: none;
@@ -27,7 +95,7 @@ header a{
 
 
 /*-----===MAIN===-----*/
-main{
+main {
     height: 90%;
     width: 100%;
     position: relative;
@@ -37,61 +105,122 @@ main{
 }
 
 /*---=Recomeçar=---*/
-aside{
+aside {
     min-height: 50px;
     height: 10%;
-    min-width: 150px;
-    width: 15%;
+    width: 100%;
     top: 0;
     position: absolute;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     cursor: pointer;
     user-select: none;
 }
-.recomecar-img-container{
+
+.vitorias{
+    height: 100%;
+    min-width: 250px;
+    width: 20%;
+    position: absolute;
+    left: 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.vitorias-x{
+    color: var(--azul-pastel);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+}
+.vitorias-o{
+    color: var(--vermelho-pastel);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+}
+.vitorias-x, .vitorias-o{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-size: 32px;
+}
+
+.recomecar {
+    height: 100%;
+    min-width: 200px;
+    width: 15%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.recomecar-img-container {
     height: 100%;
     width: calc(90vh * 0.1);
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.recomecar-img-container img{
+
+.recomecar-img-container img {
     height: 75%;
     width: 75%;
     object-fit: cover;
 }
 
-aside h2{
+.recomecar h2 {
     height: 100%;
     width: calc(100% - (90vh * 0.1));
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 32px;
+}
+
+.tempo {
+    height: 100%;
+    min-width: 150px;
+    width: 5%;
+    position: absolute;
+    right: 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-size: 32px;
+    color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
 }
 
 /*---=MAPA=---*/
-table{
-    height: 85%;
-    width: calc(90vh * 0.85);
+table {
+    height: 87.5%;
+    width: calc(90vh * 0.875);
     border-collapse: collapse;
     user-select: none;
 }
-tr:nth-child(2){
+
+tr:nth-child(2) {
     border-top: solid 20px black;
     border-bottom: solid 20px black;
 }
-td:nth-child(2){
+
+td:nth-child(2) {
     border-left: solid 20px black;
     border-right: solid 20px black;
 }
-td{
+
+td {
     height: 33.33%;
     width: 33.33%;
     cursor: pointer;
 }
-.simbolo-container{
+
+.simbolo-container {
     height: 95%;
     width: 95%;
     position: relative;
@@ -99,29 +228,39 @@ td{
     align-items: center;
     justify-content: center;
 }
-.circulo.ativado, .x.ativado{
+
+.circulo.ativado,
+.x.ativado {
     height: 100%;
     width: auto;
     position: absolute;
     display: flex;
     object-fit: cover;
 }
-.circulo.desativado, .x.desativado{display: none;}
+
+.circulo.desativado,
+.x.desativado {
+    display: none;
+}
 
 
 /*-----===ANIMAÇÃO===-----*/
 @keyframes tremer {
-    0%, 100% {
+
+    0%,
+    100% {
         transform: translateX(0);
     }
+
     66.66% {
         transform: translateX(-20px);
     }
+
     33.33% {
         transform: translateX(20px);
     }
 }
 
-.tremer{
+.tremer {
     animation: tremer .1s;
 }
