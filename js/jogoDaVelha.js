@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     const body = document.querySelector("body");
     const table = document.querySelector("table");
-    const recomecar = document.querySelector("aside");
+    const recomecar = document.querySelector(".recomecar");
     const cells = document.querySelectorAll("td");
     const msgVitoria = document.querySelector(".msg-vitoria");
     const msgEmpate = document.querySelector(".msg-empate");
@@ -138,6 +138,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 [0, 3, 6], [1, 4, 7], [2, 5, 8], // Colunas
                 [0, 4, 8], [2, 4, 6] // Diagonais
             ];
+
+            let vitoriaConfirmada = false;
     
             for (const combinacao of combinacoes) {
                 const [a, b, c] = combinacao;
@@ -233,12 +235,15 @@ document.addEventListener("DOMContentLoaded", () => {
                         cells.forEach(cell =>{
                             cell.style.pointerEvents = "auto";
                         });
-                    }, 3000);
+                    }, 2000);
 
                     //Saindo da função assim que verificar a vitória
-                    return;
-                }
-
+                    vitoriaConfirmada = true;
+                    break;
+                }    
+            }
+            
+            if(!vitoriaConfirmada){
                 verificarEmpate();
             }
         }
@@ -288,16 +293,16 @@ document.addEventListener("DOMContentLoaded", () => {
                     // fecha mensagem de empate
                     msgEmpate.classList.add("hidden");
     
-                        setTimeout(() => {
-                            msgEmpate.classList.remove("active");
-                        }, 200);
-    
-                        dark.style.transform = "translateX(-100%)";
-    
-                        cells.forEach(cell =>{
-                            cell.style.pointerEvents = "auto";
-                        });
-                }, 3000);
+                    setTimeout(() => {
+                        msgEmpate.classList.remove("active");
+                    }, 200);
+
+                    dark.style.transform = "translateX(-100%)";
+
+                    cells.forEach(cell =>{
+                        cell.style.pointerEvents = "auto";
+                    });
+                }, 2000);
             }
         }
     });
