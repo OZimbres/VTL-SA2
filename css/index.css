@@ -35,8 +35,9 @@ article{
 }
 
 section{
-    height: 100%;
+    height: auto;
     width: 30%;
+    aspect-ratio: 1/1;
     border-radius: 1em;
     overflow: hidden;
     cursor: pointer;
@@ -81,3 +82,37 @@ section{
 
 /*-----===EFEITOS===-----*/
 section:hover{transform: rotate(1deg);}
+
+
+/*-----===RESPONSIVIDADE===-----*/
+@media screen and (max-width: 1280px) {
+    header{
+        height: 10%;
+    }
+
+    /*---=MAIN=---*/
+    main{
+        overflow-y: auto;
+    }
+    article{
+        height: 90%;
+        flex-wrap: wrap;
+    }
+
+    section{
+        height: 40%;
+        width: auto;
+        aspect-ratio: 1/1;
+        margin: 1% 2%;
+    }
+
+    /*---=FOOTER=---*/
+    footer{
+        height: 10%;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .repositorio{
+        position: relative;
+    }
+}
