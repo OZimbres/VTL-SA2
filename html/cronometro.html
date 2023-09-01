@@ -20,19 +20,21 @@
         <div class="containerCronometro">
 
             <div class="tempoCronometro">
-                <h1>00:00:00</h1>
+                <h1 id="time">00:00:00</h1>
             </div>
 
 
 
             <section class="botoesCronometro">
-                <button class="botaoVerde">start</button>
-                <button class="botaoVerde">stop</button>
-                <button class="botaoVerde">reset</button>
+                <button class="start-btn" onclick="start()">start</button>
+                <button class="pause-btn" onclick="pause()">pause</button>
+                <button class="stop-btn" onclick="stop()">reset</button>
             </section>
         </div>
     </section>
 
 </body>
+
+<script src="/js/cronometro.js"></script>
 
 </html>
