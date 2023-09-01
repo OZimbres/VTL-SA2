@@ -121,14 +121,15 @@ body{
     }
 
     .tempoCronometro {
-        font-size: 1.2rem; /* Reduza ainda mais o tamanho da fonte para telas pequenas */
+        margin-top: 28%;
+        font-size: 2rem; /* Reduza ainda mais o tamanho da fonte para telas pequenas */
     }
 
     /* Ajustes adicionais para os botões */
     .start-btn,
     .pause-btn,
     .stop-btn {
-        padding: 0.3rem 0.8rem; /* Ajuste para tamanhos de tela ainda menores */
-        font-size: 1rem; /* Ajuste para tamanhos de tela ainda menores */
+        padding: 0.7rem 1.1rem; /* Ajuste para tamanhos de tela ainda menores */
+        font-size: 1.5rem; /* Ajuste para tamanhos de tela ainda menores */
     }
 }
