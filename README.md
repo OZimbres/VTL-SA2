@@ -1,12 +1,11 @@
-<h1 align="center"> SIASO </h1>
+<h1 align="center"> VTL-SA2 </h1>
 
 <p align="center"> Web Aplicação com funcionalidades JavaScript </p>
 
 <h2 align="center">
   <img src="https://img.shields.io/badge/web-OK-blue?style=for-the-badge" alt="Sistema web Ok" />
-  <img src="https://img.shields.io/badge/server-DOING-red?style=for-the-badge" alt="Server DOING" />
-  <img src="https://img.shields.io/badge/Mobile-DOING-red?style=for-the-badge" alt="Aplicativo mobile DOING" />
-  <img src="https://img.shields.io/badge/License-DOING-red?style=for-the-badge" alt="License DOING" />
+  <img src="https://img.shields.io/badge/Mobile-OK-blue?style=for-the-badge" alt="Mobile OK" />
+  <img src="https://img.shields.io/badge/Licence-MIT-blue?style=for-the-badge" alt="License OK" />
 </h2>
 
 
@@ -30,14 +29,14 @@
 
 
 <h2 id="nome-do-projeto"> Nome do Projeto </h2>
-<h3> SIASO - Situação de Aprendizagem Sistemas Operacionais </h3>
+<h3> VTL-SA2: Vinícius, Lorenzo e Thomaz - Situação de Aprendizagem 2 </h3>
 
 
 
 <h2 id="descricao"> Descrição </h2>
-<p> Web Aplicação desenvolvida em HTML5, CSS3 e JavaScript, contendo 5 páginas, cada uma com um tipo de funcionalidade que tende a ser única. <p>
+<p> Web Aplicação desenvolvida em HTML5, CSS3 e JavaScript, contendo 4 páginas, uma página índice, que direciona o usuário à 3 outras páginas de minigames <p>
 <h3> 🎯 Motivo </h3>
-<p> Na Instituição Senai Luiz Varga, localizada em Limeira, o professor Eduardo Costa solicitou a realização de uma aplicação que atendesse os requisitos passados por ele. Nós, a equipe Ultron, nos responsabilizamos por realizar portanto uma aplicação web sem, a princípio, conexão com banco de dados, utilizando apenas os conhecimentos obtidos pela educação dada a nós pela instituição. </p>
+<p> Na Instituição Senai Luiz Varga, localizada em Limeira, o professor Diogo Takamori Barbosa solicitou a realização de uma web aplicação que atendesse os requisitos passados por ele. Nós nos responsabilizamos por realizar portanto uma aplicação web sem, a princípio, conexão com banco de dados, utilizando apenas os conhecimentos obtidos pela educação dada a nós pela instituição. Tendo como resultado 3 minigames </p>
 
 
 
