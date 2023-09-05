@@ -42,16 +42,16 @@
 
 <h2 id="visuais-e-telas"> Visuais e Telas </h2>
 <p> Tela Inicial: </p>
-<img alt="Tela Inicial" title="TelaInicial" style="object-fit: cover; height: 250px;" src="readMeContent/homeExemplo.png" align="center"/>
+<img alt="Tela Inicial" title="TelaInicial" style="object-fit: cover; height: 250px;" src="assets/readMeContent/indexPrint.png" align="center"/>
 
 <p> Lâmpada: </p>
-<img alt="Tela Secretaria" title="TelaSecretaria" style="object-fit: cover; height: 250px;" src="readMeContent/secretariaExemplo.png" align="center"/>
+<img alt="Tela Secretaria" title="TelaSecretaria" style="object-fit: cover; height: 250px;" src="assets/readMeContent/lampadaPrint.png" align="center"/>
 
 <p> Cronômetro: </p>
-<img alt="Tela Diário Escolar" title="TelaDiarioEscolar" style="object-fit: cover; height: 250px;" src="readMeContent/diarioEscolarExemplo.png" align="center"/>
+<img alt="Tela Diário Escolar" title="TelaDiarioEscolar" style="object-fit: cover; height: 250px;" src="assets/readMeContent/cronometro.png" align="center"/>
 
 <p> Jogo da Velha: </p>
-<img alt="Tela Bilioteca" title="TelaBiblioteca" style="object-fit: cover; height: 250px;" src="readMeContent/bibliotecaExemplo.png" align="center"/>
+<img alt="Tela Bilioteca" title="TelaBiblioteca" style="object-fit: cover; height: 250px;" src="assets/readMeContent/jogoDaVelhaPrint.png" align="center"/>
 
 
 <h2 id="tecnologias"> Tecnologias </h2>
