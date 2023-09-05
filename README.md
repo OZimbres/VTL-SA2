@@ -40,10 +40,6 @@
 
 
 
-<h2 id="badges"> Badges </h2>
-
-
-
 <h2 id="visuais-e-telas"> Visuais e Telas </h2>
 <p> Tela Inicial: </p>
 <img alt="Tela Inicial" title="TelaInicial" style="object-fit: cover; height: 250px;" src="readMeContent/homeExemplo.png" align="center"/>
