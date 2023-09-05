@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     const body = document.querySelector("body");
     const table = document.querySelector("table");
-    const recomecar = document.querySelector("aside");
+    const recomecar = document.querySelector(".recomecar");
     const cells = document.querySelectorAll("td");
     const msgVitoria = document.querySelector(".msg-vitoria");
     const msgEmpate = document.querySelector(".msg-empate");
@@ -96,6 +96,7 @@ document.addEventListener("DOMContentLoaded", () => {
         iniciarCronometro();
     }
 
+    //Durante o jogo, ao clicar na celula escolhida
     cells.forEach(cell => {
         const circuloImg = cell.querySelector(".circulo");
         const xImg = cell.querySelector(".x");
@@ -138,6 +139,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 [0, 3, 6], [1, 4, 7], [2, 5, 8], // Colunas
                 [0, 4, 8], [2, 4, 6] // Diagonais
             ];
+
+            let vitoriaConfirmada = false;
     
             for (const combinacao of combinacoes) {
                 const [a, b, c] = combinacao;
@@ -146,28 +149,29 @@ document.addEventListener("DOMContentLoaded", () => {
                 const cellB = cells[b];
                 const cellC = cells[c];
     
-                let symbolA = "";
-                let symbolB = "";
-                let symbolC = "";
+                let simboloA = "";
+                let simboloB = "";
+                let simboloC = "";
     
+                //Checar qual o simbolo na celula em questão
                 if (cellA.querySelector(".x.ativado")) {
-                    symbolA = "X";
+                    simboloA = "X";
                 } else if (cellA.querySelector(".circulo.ativado")) {
-                    symbolA = "O";
+                    simboloA = "O";
                 }
                 if (cellB.querySelector(".x.ativado")) {
-                    symbolB = "X";
+                    simboloB = "X";
                 } else if (cellB.querySelector(".circulo.ativado")) {
-                    symbolB = "O";
+                    simboloB = "O";
                 }
                 if (cellC.querySelector(".x.ativado")) {
-                    symbolC = "X";
+                    simboloC = "X";
                 } else if (cellC.querySelector(".circulo.ativado")) {
-                    symbolC = "O";
+                    simboloC = "O";
                 }
     
-                if (symbolA === symbolB && symbolB === symbolC && symbolA !== "") {
-                    if(symbolA == "O"){
+                if (simboloA === simboloB && simboloB === simboloC && simboloA !== "") {
+                    if(simboloA == "O"){
                         document.querySelector(".msg-vitoria h1").innerHTML = "O VENCEU!";
                         document.querySelector(".msg-vitoria h1").style.color = "var(--vermelho-pastel)";
                         
@@ -233,12 +237,15 @@ document.addEventListener("DOMContentLoaded", () => {
                         cells.forEach(cell =>{
                             cell.style.pointerEvents = "auto";
                         });
-                    }, 3000);
+                    }, 2000);
 
                     //Saindo da função assim que verificar a vitória
-                    return;
-                }
-
+                    vitoriaConfirmada = true;
+                    break;
+                }    
+            }
+            
+            if(!vitoriaConfirmada){
                 verificarEmpate();
             }
         }
@@ -288,16 +295,16 @@ document.addEventListener("DOMContentLoaded", () => {
                     // fecha mensagem de empate
                     msgEmpate.classList.add("hidden");
     
-                        setTimeout(() => {
-                            msgEmpate.classList.remove("active");
-                        }, 200);
-    
-                        dark.style.transform = "translateX(-100%)";
-    
-                        cells.forEach(cell =>{
-                            cell.style.pointerEvents = "auto";
-                        });
-                }, 3000);
+                    setTimeout(() => {
+                        msgEmpate.classList.remove("active");
+                    }, 200);
+
+                    dark.style.transform = "translateX(-100%)";
+
+                    cells.forEach(cell =>{
+                        cell.style.pointerEvents = "auto";
+                    });
+                }, 2000);
             }
         }
     });
