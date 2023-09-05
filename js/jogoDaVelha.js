@@ -96,6 +96,7 @@ document.addEventListener("DOMContentLoaded", () => {
         iniciarCronometro();
     }
 
+    //Durante o jogo, ao clicar na celula escolhida
     cells.forEach(cell => {
         const circuloImg = cell.querySelector(".circulo");
         const xImg = cell.querySelector(".x");
@@ -148,28 +149,29 @@ document.addEventListener("DOMContentLoaded", () => {
                 const cellB = cells[b];
                 const cellC = cells[c];
     
-                let symbolA = "";
-                let symbolB = "";
-                let symbolC = "";
+                let simboloA = "";
+                let simboloB = "";
+                let simboloC = "";
     
+                //Checar qual o simbolo na celula em questão
                 if (cellA.querySelector(".x.ativado")) {
-                    symbolA = "X";
+                    simboloA = "X";
                 } else if (cellA.querySelector(".circulo.ativado")) {
-                    symbolA = "O";
+                    simboloA = "O";
                 }
                 if (cellB.querySelector(".x.ativado")) {
-                    symbolB = "X";
+                    simboloB = "X";
                 } else if (cellB.querySelector(".circulo.ativado")) {
-                    symbolB = "O";
+                    simboloB = "O";
                 }
                 if (cellC.querySelector(".x.ativado")) {
-                    symbolC = "X";
+                    simboloC = "X";
                 } else if (cellC.querySelector(".circulo.ativado")) {
-                    symbolC = "O";
+                    simboloC = "O";
                 }
     
-                if (symbolA === symbolB && symbolB === symbolC && symbolA !== "") {
-                    if(symbolA == "O"){
+                if (simboloA === simboloB && simboloB === simboloC && simboloA !== "") {
+                    if(simboloA == "O"){
                         document.querySelector(".msg-vitoria h1").innerHTML = "O VENCEU!";
                         document.querySelector(".msg-vitoria h1").style.color = "var(--vermelho-pastel)";
                         
