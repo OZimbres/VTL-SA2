@@ -8,45 +8,36 @@
   <img src="https://img.shields.io/badge/Licence-MIT-blue?style=for-the-badge" alt="License OK" />
 </h2>
 
-
 <h2 id="index"> 📌 Índice </h2>
 <p align="center">   
-  <a href="#index"> Índice </a> &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp;  
-  <a href="#nome-do-projeto"> Nome do Projeto </a> &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp;          
-  <a href="#descricao"> Descrição e motivação </a> &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp;         
-  <a href="#badges"> Badges </a> &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp;        
-  <a href="#visuais-e-telas"> Visuais e Telas </a> &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp;        
-  <a href="#tecnologias">Tecnologias </a> &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp;       
-  <a href="#uso"> Uso </a> &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp;        
-  <a href="#status-do-projeto"> Status do projeto </a> &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp;        
-  <a href="#issues"> Issues </a>  &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp;  
-  <a href="#contribuicoes"> Contribuições </a> &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp;        
-  <a href="#autores-e-agradecimentos"> Autores e Agradecimentos </a>  &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp;  
-  <a href="#referencias"> Referências </a>  &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp;  
-  <a href="#licenca"> Licença </a>    
+  <a href="#index"> Índice </a>       |        
+  <a href="#nome-do-projeto"> Nome do Projeto </a>       |              
+  <a href="#descricao"> Descrição e motivação </a>       |             
+  <a href="#badges"> Badges </a>       |            
+  <a href="#visuais-e-telas"> Visuais e Telas </a>       |            
+  <a href="#tecnologias">Tecnologias </a>       |           
+  <a href="#uso"> Uso </a>       |            
+  <a href="#status-do-projeto"> Status do projeto </a>       |              
+  <a href="#issues"> Issues </a>        |        
+  <a href="#contribuicoes"> Contribuições </a>       |            
+  <a href="#autores-e-agradecimentos"> Autores e Agradecimentos </a>        |        
+  <a href="#referencias"> Referências </a>        |        
+  <a href="#licenca"> Licença </a>  
 </p>
-
-
 
 <h2 id="nome-do-projeto"> Nome do Projeto </h2>
 <h3> VTL-SA2: Vinícius, Lorenzo e Thomaz - Situação de Aprendizagem 2 </h3>
-
-
 
 <h2 id="descricao"> Descrição </h2>
 <p> Web Aplicação desenvolvida em HTML5, CSS3 e JavaScript, contendo 4 páginas, uma página índice, que direciona o usuário à 3 outras páginas de minigames <p>
 <h3> 🎯 Motivo </h3>
 <p> Na Instituição Senai Luiz Varga, localizada em Limeira, o professor Diogo Takamori Barbosa solicitou a realização de uma web aplicação que atendesse os requisitos passados por ele. Nós nos responsabilizamos por realizar portanto uma aplicação web sem, a princípio, conexão com banco de dados, utilizando apenas os conhecimentos obtidos pela educação dada a nós pela instituição. Tendo como resultado 3 minigames </p>
 
-
-
 <h2 id="badges"> Badges </h2>
-
-
 
 <h2 id="visuais-e-telas"> Visuais e Telas </h2>
 <p> Tela Inicial: </p>
-<img alt="Tela Inicial" title="TelaInicial" style="object-fit: cover; height: 250px;" src="readMeContent/homeExemplo.png" align="center"/>
+<img alt="Tela Inicial" title="TelaInicial" style="object-fit: cover; height: 250px;" src="assets/readMeContent/indexPrint.png" align="center"/>
 
 <p> Lâmpada: </p>
 <img alt="Tela Secretaria" title="TelaSecretaria" style="object-fit: cover; height: 250px;" src="readMeContent/secretariaExemplo.png" align="center"/>
@@ -55,7 +46,7 @@
 <img alt="Tela Diário Escolar" title="TelaDiarioEscolar" style="object-fit: cover; height: 250px;" src="readMeContent/diarioEscolarExemplo.png" align="center"/>
 
 <p> Jogo da Velha: </p>
-<img alt="Tela Bilioteca" title="TelaBiblioteca" style="object-fit: cover; height: 250px;" src="readMeContent/bibliotecaExemplo.png" align="center"/>
+<img alt="Tela Bilioteca" title="TelaBiblioteca" style="object-fit: cover; height: 250px;" src="assets/readMeContent/jogoDaVelhaPrint.png" align="center"/>
 
 
 <h2 id="tecnologias"> Tecnologias </h2>
@@ -125,14 +116,11 @@
   </li>
 </ul>
 
-
-
 <h2 id="uso"> Uso </h2>
 <p> Acesse a documentação para informações mais detalhadas quanto para com a Web Aplicação. </p>
 <p>Documentação <a href="/assets/documentacao/lampada.md">Lâmpada</a></p>
 <p>Documentação <a href="/assets/documentacao/cronometro.md">Cronômetro</a></p>
 <p>Documentação <a href="/assets/documentacao/jogoDaVelha.md">Jogo da Velha</a></p>
-
 
 <h2 id="status-do-projeto"> Status do Projeto </h2>
 <p align="center">
@@ -140,8 +128,6 @@
 </p>
 <p> Projeto em Desenvolvimento </p>
 <p> O seguimento do projeto se dará pela resposa a ser obtida dia 05/09. </p>
-
-
 
 <h2 id="issues"> 🐛 Issues </h2>
 <p> Formas de Contato </p>
@@ -158,13 +144,6 @@
 
 > Sinta-se à vontade para registrar um novo problema com o respectivo título e descrição no repositório.
 > Se você já encontrou uma solução para eu problema, vamos adorar revisar o seu Pull Request!
-
-
-
-<h2 id="contribuicoes"> 🤝 Contribuições </h2>
-<p> Caso deseje participar do nosso projeto, entre em contato pelo email ___@___ ou por um canal específico em noso Discord. Para mais detalhes, leia a nossa <a href="">documentção</a>. </p>
-
-
 
 <h2 id="autores-e-agradecimentos"> Autores e agradecimentos </h2>
 <h3> Desenvolvedores </h3>
@@ -195,19 +174,15 @@
       </tr>
     </tbody>
 
-  </table>
-</div>
-
-
-
 <h2 id="referencias"> Referências </h2>
 
 * Guias
-    - [Shyoutarou README-Model](https://github.com/shyoutarou/README-Model/blob/master/README.md?plain=1)
 
+  - [Shyoutarou README-Model](https://github.com/shyoutarou/README-Model/blob/master/README.md?plain=1)
 * Badges
-    - [Shields](https://shields.io/)
-    - [Template Badges](https://github.com/iuricode/readme-template/blob/main/badges/badges.md)
+
+  - [Shields](https://shields.io/)
+  - [Template Badges](https://github.com/iuricode/readme-template/blob/main/badges/badges.md)
 
 <h2 id="licenca"> Licença </h2>
 <img src="https://img.shields.io/badge/Estamos Resolvendo-orange?style=for-the-badge" align="center" alt="Licença"/>
