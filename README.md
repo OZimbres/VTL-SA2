@@ -147,8 +147,8 @@
     Email:
     <ul>
       <li> [LoriaLawrenceZ] Lorenzo O. Zimbres: lorenzozimbresfilmmaker@gmail.com</li>
-      <li> [Paiva8859] Gabriel A. Paiva: </li>
-      <li> [TheuZCoder] Matheus R. Silva: </li>
+      <li> [epicestudar] Vinícius G. Feitoza:viniciusftza@gmail.com</li>
+      <li> [ThmZ] Thomaz P. Bernardes: thomazpiresbernardes@gmail.com</li>
     </ul>
   </li>
 </ul>
