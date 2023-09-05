@@ -48,7 +48,7 @@
 <img alt="Tela Secretaria" title="TelaSecretaria" style="object-fit: cover; height: 250px;" src="assets/readMeContent/lampadaPrint.png" align="center"/>
 
 <p> Cronômetro: </p>
-<img alt="Tela Diário Escolar" title="TelaDiarioEscolar" style="object-fit: cover; height: 250px;" src="assets/readMeContent/cronometro.png" align="center"/>
+<img alt="Tela Diário Escolar" title="TelaDiarioEscolar" style="object-fit: cover; height: 250px;" src="assets/readMeContent/cronometroPrint.png" align="center"/>
 
 <p> Jogo da Velha: </p>
 <img alt="Tela Bilioteca" title="TelaBiblioteca" style="object-fit: cover; height: 250px;" src="assets/readMeContent/jogoDaVelhaPrint.png" align="center"/>
