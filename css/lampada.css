@@ -69,3 +69,43 @@ article{
     object-fit: cover;
     cursor: pointer;
 }
+header {
+    min-height: 50px;
+    height: 5%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    z-index: 200;
+}
+
+nav {
+    height: 100%;
+    width: 97.5%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+header a {
+    font-size: 32px;
+    text-decoration: none;
+    font-family: 'Londrina Solid', cursive;
+}
+header a, footer li{
+    color: var(--amarelo-pastel);
+}
+footer a{
+    color: var(--amarelo-pastel)
+}
+
+.devs li a{
+    font-size: 24px;
+    color: var(--amarelo-pastel)
+}
+
+.repositorio a{
+    font-size: 28px;
+    color: var(--amarelo-pastel)
+}
+
