@@ -129,9 +129,9 @@
 
 <h2 id="uso"> Uso </h2>
 <p> Acesse a documentação para informações mais detalhadas quanto para com a Web Aplicação. </p>
-<span>Documentação <a href="/assets/documentacao/lampada.md">Lâmpada</a></span>
-<span>Documentação <a href="/assets/documentacao/cronometro.md">Cronômetro</a></span>
-<span>Documentação <a href="/assets/documentacao/jogoDaVelha.md">Jogo da Velha</a></span>
+<p>Documentação <a href="/assets/documentacao/lampada.md">Lâmpada</a></p>
+<p>Documentação <a href="/assets/documentacao/cronometro.md">Cronômetro</a></p>
+<p>Documentação <a href="/assets/documentacao/jogoDaVelha.md">Jogo da Velha</a></p>
 
 
 <h2 id="status-do-projeto"> Status do Projeto </h2>
