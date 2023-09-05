@@ -147,7 +147,7 @@
     Email:
     <ul>
       <li> [LoriaLawrenceZ] Lorenzo O. Zimbres: lorenzozimbresfilmmaker@gmail.com</li>
-      <li> [epicestudar] Vinícius G. Feitoza:viniciusftza@gmail.com</li>
+      <li> [epicestudar] Vinícius G. Feitoza: viniciusftza@gmail.com</li>
       <li> [ThmZ] Thomaz P. Bernardes: thomazpiresbernardes@gmail.com</li>
     </ul>
   </li>
