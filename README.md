@@ -99,10 +99,10 @@
     </ul>
   </li>
   <li>
-    [ ] Lâmpada
+    [x] Lâmpada
     <ul>
-      <li> [ ] Estados da página dependendo da lâmpada</li>
-      <li> [ ] Transição de lâmpada</li>
+      <li> [x] Estados da página dependendo da lâmpada</li>
+      <li> [x] Restaurar lâmpada</li>
     </ul>
   </li>
   <li>
