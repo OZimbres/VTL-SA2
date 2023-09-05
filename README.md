@@ -170,8 +170,8 @@
     <tbody>
       <tr align=center>
         <th><strong> Lorenzo O. Zimbres </br> LoriaLawrenceZ </strong></th>
-        <th><strong> Gabriel A. Paiva </br> Paiva8859 </strong></th>
-        <th><strong> Matheus R. Silva </br> TheuZCoder</strong></th>
+        <th><strong> Vinícius G. Feitoza </br> epicestudar </strong></th>
+        <th><strong> Thomaz P. Bernardes </br> ThmZ</strong></th>
       </tr>
       <tr align=center>
         <td>
@@ -181,12 +181,12 @@
         </td>
         <td>
           <a href="https://github.com/Paiva8859">
-            <img width="200" height="200" style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/123770443?v=4">
+            <img width="200" height="200" style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/107704540?v=4">
           </a>
         </td>
         <td>
           <a href="https://github.com/TheuZCoder">
-            <img width="200" height="200" style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/82974688?v=4">
+            <img width="200" height="200" style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/73339593?v=4">
           </a>
         </td>
       </tr>
