@@ -121,41 +121,6 @@ header a{
     color: white;
 }
 
-/* estilos para telas grandes */
-
-/* media query para telas médias (tablets, etc.) */
-@media (max-width: 1024px) {
-    .containerCronometro {
-        width: 90%; /* reduzindo um pouco a largura para telas médias */
-    }
-
-    .tempoCronometro {
-        font-size: 1.5rem; /* reduzindo o tamanho da fonte para telas médias */
-    }
-}
-
-/* media query para telas pequenas (smartphones, etc.) */
-@media (max-width: 768px) {
-    .containerCronometro {
-        width: 95%; /* reduzindo ainda mais a largura para telas pequenas */
-        height: 40vh; /* reduzindo a altura para telas pequenas */
-    }
-
-    .tempoCronometro {
-        margin-top: 28%;
-        font-size: 2rem; /* reduzindo ainda mais o tamanho da fonte para telas pequenas */
-    }
-
-    /* ajustes adicionais para os botões */
-    .start-btn,
-    .pause-btn,
-    .stop-btn {
-        padding: 0.7rem 1.1rem; /* ajustando para tamanhos de tela ainda menores */
-        font-size: 1.5rem; /* ajustando para tamanhos de tela ainda menores */
-    }
-}
-
-
 /*---=footer do site=---*/
 footer{
     min-height: 50px;
@@ -193,4 +158,49 @@ footer{
     font-size: 24px;
     color: black;
     text-decoration: underline;
+}
+
+/* estilos para telas grandes */
+
+/* media query para telas médias (tablets, etc.) */
+@media (max-width: 1024px) {
+    .containerCronometro {
+        width: 90%; /* reduzindo um pouco a largura para telas médias */
+    }
+
+    .tempoCronometro {
+        font-size: 1.5rem; /* reduzindo o tamanho da fonte para telas médias */
+    }
+    header{
+        height: 10%;
+    }
+    footer{
+        height: 10%;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .repositorio{
+        position: relative;
+    }
+}
+
+/* media query para telas pequenas (smartphones, etc.) */
+@media (max-width: 768px) {
+    .containerCronometro {
+        width: 95%; /* reduzindo ainda mais a largura para telas pequenas */
+        height: 40vh; /* reduzindo a altura para telas pequenas */
+    }
+
+    .tempoCronometro {
+        margin-top: 28%;
+        font-size: 2rem; /* reduzindo ainda mais o tamanho da fonte para telas pequenas */
+    }
+
+    /* ajustes adicionais para os botões */
+    .start-btn,
+    .pause-btn,
+    .stop-btn {
+        padding: 0.7rem 1.1rem; /* ajustando para tamanhos de tela ainda menores */
+        font-size: 1.5rem; /* ajustando para tamanhos de tela ainda menores */
+    }
 }
