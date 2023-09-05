@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () =>{
 
             // Levar o usuário à respectiva página clicada
             if(pagina == "lampada"){
-                window.location.reload();
+                window.location.href = "./html/lampada.html";
             }
             else if(pagina == "cronometro"){ 
                 window.location.reload();
