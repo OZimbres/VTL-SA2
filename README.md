@@ -48,20 +48,14 @@
 <p> Tela Inicial: </p>
 <img alt="Tela Inicial" title="TelaInicial" style="object-fit: cover; height: 250px;" src="readMeContent/homeExemplo.png" align="center"/>
 
-<p> Tela Secretaria: </p>
+<p> Lâmpada: </p>
 <img alt="Tela Secretaria" title="TelaSecretaria" style="object-fit: cover; height: 250px;" src="readMeContent/secretariaExemplo.png" align="center"/>
 
-<p> Tela Diário Escolar: </p>
+<p> Cronômetro: </p>
 <img alt="Tela Diário Escolar" title="TelaDiarioEscolar" style="object-fit: cover; height: 250px;" src="readMeContent/diarioEscolarExemplo.png" align="center"/>
 
-<p> Tela Biblioteca: </p>
+<p> Jogo da Velha: </p>
 <img alt="Tela Bilioteca" title="TelaBiblioteca" style="object-fit: cover; height: 250px;" src="readMeContent/bibliotecaExemplo.png" align="center"/>
-
-<p> Tela Cantina: </p>
-<img alt="Tela Cantina" title="TelaCantina" style="object-fit: cover; height: 250px;" src="readMeContent/cantinaExemplo.png" align="center"/>
-
-<h3> GIF's </h3>
-
 
 
 <h2 id="tecnologias"> Tecnologias </h2>
@@ -75,18 +69,18 @@
   </thead>
   <tbody>
     <tr>
-      <td> 18/05 </td>
+      <td> 31/08 </td>
       <td> Estruturação básica </td>
       <td> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML Badge"/> </td>
     </tr>
     <tr>
-      <td> 19/05 </td>
-      <td> Funcionalidades JavaScript </td>
+      <td> 01/09 </td>
+      <td> Estilização Básica </td>
       <td> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS Badge"/> </td>
     </tr>
     <tr>
-      <td> 25/05 </td>
-      <td> Estilização básica </td>
+      <td> 03/09 </td>
+      <td> Funcionalidades JavaScript </td>
       <td> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript Badge"/> </td>
     </tr>
   </tbody>
@@ -96,44 +90,37 @@
 <ul>
   <li> [x] Estrutura HTML </li>
   <li> [x] Estilização básica para funcionamento do Javascript </li>
-  <li> [ ] Conexão com banco de dados </li>
-  <li> [ ] Responsividade </li>
+  <li> [x] Responsividade </li>
   <li>
     [ ] Landing Page
     <ul>
-      <li> [x] Impedir usuário de acessar links sem estar Logado</li>
-      <li> [x] Verificação de e-mail e senha </li>
-      <li> [ ] Salvar Login </li>
+      <li> [x] 3 Cards que direcionam aos minigames</li>
+      <li> [ ] Animação de transição ao clicar no card </li>
     </ul>
   </li>
   <li>
-    [x] Secretaria
+    [ ] Lâmpada
     <ul>
-      <li> [x] Efeito hover dos Cards</li>
-      <li> [x] Expansão/Encolhimento dos Cards </li>
+      <li> [ ] Estados da página dependendo da lâmpada</li>
+      <li> [ ] Transição de lâmpada</li>
     </ul>
   </li>
   <li>
-    [ ] Diário Escolar
+    [x] Cronômetro
     <ul>
-      <li> [x] Troca de Conteúdo </li>
-      <li> [x] Valores Randômicos à tabela </li>
-      <li> [ ] Matemática correta para Conteúdo das Tabelas/Contato </li>
+      <li> [x] Começar, Parar e Recomeçar </li>
+      <li> [x] Começar, Parar e Recomeçar funcionando</li>
+      <li> [x] Estilização </li>
     </ul>
   </li>
   <li>
-    [ ] Biblioteca
+    [x] Jogo da Velha
     <ul>
-      <li> [x] Menu Expansível </li>
-      <li> [x] Opção X recolhe quando opção Y é expandida </li>
-      <li> [ ] Valores randômicos de aluguel de livros </li>
-    </ul>
-  </li>
-  <li>
-    [x] Cantina
-    <ul>
-      <li> [x] Escolha randômica dos alimentos </li>
-      <li> [x] Escolha randômica do alimento barato do dia </li>
+      <li> [x] Troca de Jogadores </li>
+      <li> [x] Temporizador </li>
+      <li> [x] Contador de Vitória </li>
+      <li> [x] Verificar vitória e Empate </li>
+      <li> [x] Recomeçar </li>
     </ul>
   </li>
 </ul>
@@ -142,9 +129,6 @@
 
 <h2 id="uso"> Uso </h2>
 <p> Acesse a <a href="readMeContent/MANUAL_DO_SIASO.docx">documentação</a> para informações mais detalhadas quanto para com a Web Aplicação. </p>
-<p> <a href="readMeContent/crachaFinal.docx"> Crachás </a> </p>
-<p> <a href="readMeContent/cartaContratacao.docx"> Carta de Contratação </a> </p>
-
 
 
 <h2 id="status-do-projeto"> Status do Projeto </h2>
@@ -152,7 +136,7 @@
   <img src="https://img.shields.io/badge/Project-DOING-orange?style=for-the-badge" align="center" alt="Projeto em Desenvolvimento"/>
 </p>
 <p> Projeto em Desenvolvimento </p>
-<p> O seguimento do projeto se dará pela resposa a ser obtida dia 25/05. </p>
+<p> O seguimento do projeto se dará pela resposa a ser obtida dia 05/09. </p>
 
 
 
@@ -163,15 +147,8 @@
     Email:
     <ul>
       <li> [LoriaLawrenceZ] Lorenzo O. Zimbres: lorenzozimbresfilmmaker@gmail.com</li>
-      <li> [Paiva8859] Gabriel A. Paiva: gabrielaguilarpaiva@gmail.com </li>
-      <li> [TheuZCoder] Matheus R. Silva: matheusrdsilva1@gmail.com </li>
-    </ul>
-  </li>
-  
-  <li>
-    Discord:
-    <ul>
-      <li> Server: ____ </li>
+      <li> [Paiva8859] Gabriel A. Paiva: </li>
+      <li> [TheuZCoder] Matheus R. Silva: </li>
     </ul>
   </li>
 </ul>
