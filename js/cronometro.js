@@ -1,8 +1,19 @@
+/*-----===VARIÁVEIS===-----*/
+const startBtn = document.querySelector(".start-btn");
+const pauseBtn = document.querySelector(".pause-btn");
+const stopBtn = document.querySelector(".stop-btn");
+
 var seconds = 0o0;
 var minutes = 0o0;
 var hours = 0o0;
 var interval;
 
+/*---=EventListener=---*/
+startBtn.addEventListener("click", start);
+pauseBtn.addEventListener("click", pause);
+stopBtn.addEventListener("click", toStop);
+
+/*---=FUNÇÕES=---*/
 function twoDigits(digit) {
     if(digit < 10) {
         return('0'+digit);
@@ -20,7 +31,7 @@ function pause() {
     clearInterval(interval);
 }
 
-function stop() {
+function toStop() {
     clearInterval(interval);
     seconds = 0;
     minutes = 0;

@@ -2,12 +2,31 @@
     margin: 0;
     box-sizing: border-box;
     padding: 0;
+    text-decoration: none;
+    list-style: none;
 }
 
 body{
     background-color: #F39696;
 }
 
+/*---=configurações do header=---*/
+header{
+    font-family: 'Londrina Solid', cursive;
+    min-height: 100px;
+    height: 15%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header a{
+    font-size: 2.5rem;
+    color: #FBFCC6;;
+}
+
+
+/* estilização do título */
 .tituloCima{
     display: flex;
     justify-content: center;
@@ -18,6 +37,7 @@ body{
     font-size: 2rem;
 }
 
+/* definindo o tamanho e a cor do fundo do container */
 .containerCronometro{
     margin-top: 3%;
     background: #5F6494;
@@ -27,12 +47,13 @@ body{
     max-width: 800px;
     
 }
+/* usando flexbox */
 .cronometro{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
+/* estilização do contador do cronômetro */
 .tempoCronometro{
     margin-top: 17%;
     text-align: center;
@@ -40,13 +61,14 @@ body{
     color: white;
 }
 
-/* Estilo para os botões */
+/* flexbox para os botões */
 .botoesCronometro{
     display: flex;
     justify-content: center;
     margin-top: 5%;
     align-items: center;
 }
+/* estilizando o botão start */
 .start-btn {
     background-color: #8FF299;
     color: black;
@@ -59,12 +81,12 @@ body{
     font-family: 'Londrina Solid', cursive;
 }
 
-/* Estilize o hover (quando o mouse está sobre o botão) */
+/* estilizando o hover (quando o mouse está sobre o botão) */
 .start-btn:hover {
     background-color: #6bb373;
     color: white;
 }
-
+/* estilizando o botão pause */
 .pause-btn{
     background-color: #8fe6f2;
     color: black;
@@ -76,12 +98,12 @@ body{
     text-align: center;
     font-family: 'Londrina Solid', cursive;
 }
-
+/* estilizando o hover (quando o mouse está sobre o botão) */
 .pause-btn:hover{
     background-color: #65a5ad;
     color: white;
 }
-
+/* estilizando o botão stop */
 .stop-btn{
     background-color: #e78b8b;
     color: black;
@@ -93,43 +115,82 @@ body{
     text-align: center;
     font-family: 'Londrina Solid', cursive;
 }
-
+/* estilizando o hover (quando o mouse está sobre o botão) */
 .stop-btn:hover{
     background-color: #995c5c;
     color: white;
 }
 
-/* Estilos para telas grandes */
-/* ... (seus estilos anteriores) ... */
+/* estilos para telas grandes */
 
-/* Media query para telas médias (tablets, etc.) */
+/* media query para telas médias (tablets, etc.) */
 @media (max-width: 1024px) {
     .containerCronometro {
-        width: 90%; /* Reduza um pouco a largura para telas médias */
+        width: 90%; /* reduzindo um pouco a largura para telas médias */
     }
 
     .tempoCronometro {
-        font-size: 1.5rem; /* Reduza o tamanho da fonte para telas médias */
+        font-size: 1.5rem; /* reduzindo o tamanho da fonte para telas médias */
     }
 }
 
-/* Media query para telas pequenas (smartphones, etc.) */
+/* media query para telas pequenas (smartphones, etc.) */
 @media (max-width: 768px) {
     .containerCronometro {
-        width: 95%; /* Reduza ainda mais a largura para telas pequenas */
-        height: 40vh; /* Reduza a altura para telas pequenas */
+        width: 95%; /* reduzindo ainda mais a largura para telas pequenas */
+        height: 40vh; /* reduzindo a altura para telas pequenas */
     }
 
     .tempoCronometro {
         margin-top: 28%;
-        font-size: 2rem; /* Reduza ainda mais o tamanho da fonte para telas pequenas */
+        font-size: 2rem; /* reduzindo ainda mais o tamanho da fonte para telas pequenas */
     }
 
-    /* Ajustes adicionais para os botões */
+    /* ajustes adicionais para os botões */
     .start-btn,
     .pause-btn,
     .stop-btn {
-        padding: 0.7rem 1.1rem; /* Ajuste para tamanhos de tela ainda menores */
-        font-size: 1.5rem; /* Ajuste para tamanhos de tela ainda menores */
+        padding: 0.7rem 1.1rem; /* ajustando para tamanhos de tela ainda menores */
+        font-size: 1.5rem; /* ajustando para tamanhos de tela ainda menores */
     }
+}
+
+
+/*---=footer do site=---*/
+footer{
+    min-height: 50px;
+    height: 5%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Londrina Solid', cursive;
+    margin-top: 5%;
+}
+/*---=definindo as posições dos repositórios=---*/
+.repositorio{
+    position: absolute;
+    left: 2.5%;
+}
+/*---=definindo os estilos e tamanho do texto dos repositórios=---*/
+.repositorio a{
+    font-size: 28px;
+    color: black;
+    text-decoration: underline;
+}
+/*---=usando flexbox e definindo larguras=---*/
+.devs{
+    min-width: 400px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+/*---=definindo as posições dos repositórios=---*/
+.devs li a{
+    font-size: 24px;
+    color: black;
+    text-decoration: underline;
 }
