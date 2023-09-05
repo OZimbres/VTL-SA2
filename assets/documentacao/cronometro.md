@@ -1,5 +1,3 @@
-Claro, vou criar uma documentação em Markdown que descreve o processo de desenvolvimento do cronômetro, algumas das dificuldades encontradas e adicionarei alguns emojis para torná-la mais amigável. Aqui está a documentação:
-
 # Documentação do Cronômetro ⏱️
 
 Este é um cronômetro simples desenvolvido usando HTML, CSS e JavaScript para o nosso projeto em grupo. Aqui, descreveremos o processo de desenvolvimento, as dificuldades encontradas e como o cronômetro funciona. 
