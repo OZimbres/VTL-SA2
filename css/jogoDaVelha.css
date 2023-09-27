@@ -332,8 +332,8 @@ td {
 
     /*---=MAPA=---*/
     table{
-        height: auto;
-        width: 90%;
+        height: 95%;
+        width: auto;
         aspect-ratio: 1/1;
     }
 
@@ -350,5 +350,15 @@ td {
     }
     .repositorio{
         position: relative;
+    }
+}
+
+/*-----===RESPONSIVIDADE===-----*/
+@media screen and (max-width: 650px){
+    /*---=MAPA=---*/
+    table{
+        height: auto;
+        width: 90%;
+        aspect-ratio: 1/1;
     }
 }
