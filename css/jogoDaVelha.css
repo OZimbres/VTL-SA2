@@ -354,7 +354,7 @@ td {
 }
 
 /*-----===RESPONSIVIDADE===-----*/
-@media screen and (max-width: 650px){
+@media screen and (max-width: 500px){
     /*---=MAPA=---*/
     table{
         height: auto;
